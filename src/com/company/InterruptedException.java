@@ -6,6 +6,12 @@ class Mythread1 implements Runnable{
         } catch (java.lang.InterruptedException e) {
             e.printStackTrace();
         }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        catch (Throwable e){
+            e.printStackTrace();
+        }
     }
 }
 
